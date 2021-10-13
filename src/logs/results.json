@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "2cbe3e53-6152-47f4-891b-229c3618bee4",
+        "name": "PC-Count1",
+        "version": "3.0",
+        "url": "http://127.0.0.1:8000/Modulos/2cbe3e53-6152-47f4-891b-229c3618bee4",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "33f1ed97-4444-483a-9f72-591bcc275a63",
+        "name": "PC-Count2",
+        "version": "1.0",
+        "url": "http://127.0.0.1:8000/Modulos/33f1ed97-4444-483a-9f72-591bcc275a63",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "99b9bce6-d9fa-499d-bd33-960668f332c2",
+        "name": "PC-Count3",
+        "version": "3.0",
+        "url": "http://127.0.0.1:8000/Modulos/99b9bce6-d9fa-499d-bd33-960668f332c2",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "eb1d9d59-6876-41d0-8bf0-619be9be540d",
+        "name": "PC-Count4",
+        "version": "1.0",
+        "url": "http://127.0.0.1:8000/Modulos/eb1d9d59-6876-41d0-8bf0-619be9be540d",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "fec5cd81-219b-446a-8781-659f08d40c56",
+        "name": "PC-Count5",
+        "version": "3.0",
+        "url": "http://127.0.0.1:8000/Modulos/fec5cd81-219b-446a-8781-659f08d40c56",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dataReg": "06/10/2021",
+    "Modulos": [
+      {
+        "idModulo": "ef0d4d18-dcf6-4393-aa1f-02111946ab14",
+        "name": "PC-Count6",
+        "version": "3.0",
+        "url": "http://127.0.0.1:8000/Modulos/ef0d4d18-dcf6-4393-aa1f-02111946ab14",
+        "isActive": true
+      }
+    ]
+  }
+]
