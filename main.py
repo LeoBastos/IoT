@@ -32,7 +32,7 @@ def run_threaded(job_func):
     job_thread.join()
 
 
-schedule.every(120).seconds.do(main)
+schedule.every(10).seconds.do(main)
 
 while 1:
     schedule.run_pending()

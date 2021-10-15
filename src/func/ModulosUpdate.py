@@ -10,7 +10,7 @@ def updateModule():
     """Verifica e executa a versão do Modulo caso esteja desatualizado"""
     time.sleep(3)
     print(colorama.Fore.LIGHTBLUE_EX + f'::::: Checando Versão do Modulo :::::]', flush=True)
-    data = get(urljoin(base_url, '2')).json()['Modulos'][0]['version']
+    data = get(urljoin(base_url, '6')).json()['Modulos'][0]['version']
     print(f'Versão Atual...: {data} ')
     time.sleep(2)
 
@@ -18,7 +18,7 @@ def updateModule():
         print(f'Você já Possui a ultima Versão: {data} ')
         time.sleep(2)
     else:
-        send_mail(to_email=[''],
+        send_mail(to_email=['leonardo.bastos@criaresistemas.com'],
                   subject='Versão Desatualizada', message=f'Versão do IoT está desatualizado: {data}')
         print(f'A Versão atual está Desatualizada {data}')
         print('Verificar com PC como será o processo de update')

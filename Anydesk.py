@@ -36,7 +36,7 @@ def verificaInstalacao(path):
         time.sleep(2)
 
         print('Iniciando instalação')
-        mypass = ''
+        mypass = 'k4hvdc9g00leo'
         command = "apt install anydesk"
         os.system('echo %s|sudo -S %s' % (mypass, command))
 

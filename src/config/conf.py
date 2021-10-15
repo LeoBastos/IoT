@@ -23,7 +23,7 @@ if not exists(path):
 
 """ Configuração de Email """
 
-# EMAIL_ADDRESS = ''
+# EMAIL_ADDRESS = 'leonardobastos04@gmail.com'
 # EMAIL_PASSWORD = ''
 # msg = EmailMessage()
 # msg['Subject'] = 'Falha na Api'
