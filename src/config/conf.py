@@ -23,12 +23,12 @@ if not exists(path):
 
 """ Configuração de Email """
 
-# EMAIL_ADDRESS = 'leonardobastos04@gmail.com'
+# EMAIL_ADDRESS = '@gmail.com'
 # EMAIL_PASSWORD = ''
 # msg = EmailMessage()
 # msg['Subject'] = 'Falha na Api'
-# msg['from'] = 'leonardobastos04@gmail.com'
-# msg['to'] = 'leonardo.bastos@criaresistemas.com'
+# msg['from'] = '@gmail.com'
+# msg['to'] = '@.com'
 # msg.set_content('Erro ao buscar valor da api')
 #
 # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
