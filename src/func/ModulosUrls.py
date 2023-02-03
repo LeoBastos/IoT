@@ -31,7 +31,7 @@ def get_urls():
         continue
 
     if tentativas == 3:
-        send_mail(to_email=['leonardo.bastos@criaresistemas.com'],
+        send_mail(to_email=['email@.com'],
                   subject='Falha na Api', message=f'Erro ao retornar os modulos cadastrados na api!')
         print('email enviado')
 
@@ -44,7 +44,7 @@ def get_urls():
 
         except:
             time.sleep(2)
-            send_mail(to_email=['leonardo.bastos@criaresistemas.com'],
+            send_mail(to_email=['email@.com'],
                       subject="Erro Banco de Dados",
                       message=f'Erro ao persistir no banco')
             print('Ocorreu um erro ao tentar inserir no banco de dados')
