@@ -2,7 +2,7 @@ import smtplib
 from email.message import EmailMessage
 
 
-def send_mail(to_email, subject, message, server='smtp.gmail.com', from_email='leonardobastos04@gmail.com'):
+def send_mail(to_email, subject, message, server='smtp.gmail.com', from_email='@gmail.com'):
 
     msg = EmailMessage()
     msg['Subject'] = subject
@@ -11,6 +11,6 @@ def send_mail(to_email, subject, message, server='smtp.gmail.com', from_email='l
     msg.set_content(message)
 
     server = smtplib.SMTP_SSL(server, 465)
-    server.login(from_email, '-00388ut32Leo')
+    server.login(from_email, 'passwd')
     server.send_message(msg)
 
