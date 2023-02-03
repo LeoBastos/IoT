@@ -40,7 +40,7 @@ class EmpresaDB:
 
 
 if __name__ == '__main__':
-    empresa = EmpresaDB('/home/leonardo/PycharmProjects/Projeto/src/Model/db_criare.db')
+    empresa = EmpresaDB('/home/leonardo/PycharmProjects/Projeto/src/Model/db_***.db')
     #empresa.inserir('2021-10-10', 3)
 
     empresa.listar()
