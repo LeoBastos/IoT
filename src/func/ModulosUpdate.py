@@ -18,9 +18,8 @@ def updateModule():
         print(f'Você já Possui a ultima Versão: {data} ')
         time.sleep(2)
     else:
-        send_mail(to_email=['leonardo.bastos@criaresistemas.com'],
+        send_mail(to_email=['*****@com'],
                   subject='Versão Desatualizada', message=f'Versão do IoT está desatualizado: {data}')
-        print(f'A Versão atual está Desatualizada {data}')
-        print('Verificar com PC como será o processo de update')
+        print(f'A Versão atual está Desatualizada {data}')        
         time.sleep(2)
 
