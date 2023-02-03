@@ -1,6 +1,6 @@
 import pyodbc
 
-CONN_STR = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=.;DATABASE=criareDB;UID=sa;PWD=-00388ut32Leo'
+CONN_STR = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=.;DATABASE=*****;UID=**;PWD=******'
 conn = pyodbc.connect(CONN_STR)
 cursor = conn.cursor()
 
@@ -30,10 +30,10 @@ def deleteSql(idModulo):
 
 
 ### Inserção:
-#insertSql("PC-Count-6", 1, "http://127.0.0.1:8000/8478F87E-6E34-47C2-B378-07427751D059", True);
+#insertSql("PC-6", 1, "http://127.0.0.1:8000/8478F87E-6E34-47C2-B378-07427751D059", True);
 
 ### Update:
-#updateSql("PC-Count-6", 1, "http://127.0.0.1:8000/E5465105-963D-4060-84BA-F6C30CAF58AA", True, 'E5465105-963D-4060-84BA-F6C30CAF58AA');
+#updateSql("PC-6", 1, "http://127.0.0.1:8000/E5465105-963D-4060-84BA-F6C30CAF58AA", True, 'E5465105-963D-4060-84BA-F6C30CAF58AA');
 
 # #Delete
 # deleteSql('E5465105-963D-4060-84BA-F6C30CAF58AA')
