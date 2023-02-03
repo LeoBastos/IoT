@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect('db_criare.db')
+con = sqlite3.connect('db_***.db')
 cursor = con.cursor()
 
 cursor.execute('CREATE TABLE Empresa ('
