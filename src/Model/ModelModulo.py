@@ -46,9 +46,8 @@ class ModuloDB:
 
 
 if __name__ == '__main__':
-    modulo = ModuloDB('db_criare.db')
-    ########### Id, Nome, Versão, Url, isActive
-    #modulo.inserir('PCCOUNT2', 3, 'http://127.0.0.1/', True)
+    modulo = ModuloDB('db_****.db')
+    ########### Id, Nome, Versão, Url, isActive  
     modulo.listar()
-    #modulo.buscar(1)
+  
 
