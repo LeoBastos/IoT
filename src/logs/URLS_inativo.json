@@ -4,7 +4,7 @@
   "Modulos": [
     {
       "idModulo": "eb1d9d59-6876-41d0-8bf0-619be9be540d",
-      "name": "PC-Count4",
+      "name": "PC-4",
       "version": "1.0",
       "url": "http://127.0.0.1:8000/Modulos/eb1d9d59-6876-41d0-8bf0-619be9be540d",
       "isActive": false
